@@ -1,0 +1,432 @@
+/*
+* @Author: Administrator
+* @Date:   2018-05-06 00:20:23
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-05-07 00:47:02
+*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: normal;
+    font-family: 苹方;
+    text-decoration: none;
+    color: black;
+}
+
+header{
+	width: 100%;
+	height: 8.3rem;
+	background: #000;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+}
+header .in{
+	width: 12rem;
+	height: 7.2rem;
+	margin: 0 auto;
+	display: flex;
+}
+header .in .left{
+	width: 10rem;
+	height: 6.08rem;
+	margin-top: 0.7rem;
+	position: relative;
+	overflow: hidden;
+}
+header .in .left .lunbo{
+	width: 10rem;
+	height: 6.08rem;
+}
+header .in .left .lunbo1{
+
+	position: absolute;
+	top: 0;
+	right: -10rem;
+}
+header .in img{
+	width: 10rem;
+	height: 6.08rem;
+}
+header .in .right{
+	width: 2rem;
+	height: 6.08rem;
+	margin-top: 0.7rem;
+	/* margin-left: 0.34rem; */
+}
+ header .in .right .box{
+	width: 2rem;
+	height: 100%;
+}
+header .in .right .box a{
+	display: block;
+	width: 2rem;
+	height: 0.9rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+header .in .right .logo{
+	width: 2rem;
+	height: 1.35rem;
+	background-image: url('../img/logo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+header .in .right .box .ok{
+	background: #D71F1F;
+}
+header .in .right .box a:hover{
+	background: #D71F1F;
+}
+header a h1{
+	font-size: 0.20rem;
+	color: #fff;
+}
+header a p{
+	font-size: 0.14rem;
+	color: #fff;
+}
+/* 导航列表 */
+ .nav{
+	width: 12rem;
+	height: 1rem;
+	margin: -0.8rem auto 0 auto;
+	background: #fff;
+	display: flex;
+	padding-left: 0.88rem;
+	box-sizing: border-box;
+	align-items: center;
+	position: relative;
+} 
+.nav a{
+	display: block;
+	height: 0.5rem;
+	font-size: 0.22rem;
+	font-weight: bold;
+	color: #000;
+	border-bottom: 0.02rem solid #000;
+	text-align: center;
+	line-height: 0.5rem;
+}
+
+.nav i{
+	width: 0.5rem;
+	height: 0.5rem;
+	text-align: center;
+	line-height: 0.5rem;
+	font-size: 0.18rem;
+	color: #fff;
+	border-radius: 50%;
+	background: #000;
+	float: left;
+	margin: 0 0.2rem;
+}
+/* 导航列表结束 */
+
+.min{
+	width: 12rem;
+	height: auto;
+	margin: 0 auto;
+	box-shadow: 0rem 0.2rem 0.3rem 0.1rem rgba(0, 0, 0,0.1);
+	
+}
+.min .on{
+	width: 10.24rem;
+	height: 5.5rem;
+	margin: 0 auto;
+	background-image: url('../img/brand/beijing.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.min .two{
+	width: 10.24rem;
+	height: 3.5rem;
+	margin: 0 auto;
+}
+.min .two .box:nth-child(1){
+	width: 100%;
+	height: 0.72rem;
+	background-image: url('../img/brand/two1.png');
+}
+.min .two .box:nth-child(2),.min .two .box:nth-child(3){
+	margin-top: 0.3rem;
+	margin-left: 1.05rem;
+}
+.min .two .box:nth-child(2) h1{
+	font-size: 0.18rem;
+	color: #000;
+}
+.min .two .box:nth-child(2) p{
+	font-size: 0.14rem;
+	color: #959292;
+}
+
+.min .two .box:nth-child(3) p{
+	font-size: 0.14rem;
+	color: #4c4b4b;
+}
+.min .three{
+	width: 10.24rem;
+	height: 5.7rem;
+	margin: 0 auto;
+}
+.min .three .box:nth-child(1){
+	width: 100%;
+	height: 0.72rem;
+	background-image: url('../img/brand/two2.png');
+}
+.min .three .box:nth-child(2),.min .three .box:nth-child(3){
+	margin-top: 0.3rem;
+	margin-left: 1.05rem;
+}
+.min .three .box:nth-child(2) h1{
+	font-size: 0.18rem;
+	color: #000;
+}
+.min .three .box:nth-child(2) p{
+	font-size: 0.14rem;
+	color: #959292;
+}
+.min .three .box:nth-child(2) p i{
+	font-size: 0.18rem;
+	color: #959292;
+}
+.min .three .box:nth-child(2) i{
+	font-size: 0.18rem;
+	color: #000;
+}
+.min .three .box:nth-child(3) p{
+	font-size: 0.14rem;
+	color: #4c4b4b;
+}
+.min .three .enl p{
+	font-size: 0.14rem;
+	color: #959292;
+	margin-top: 0.3rem;
+	margin-left: 1.05rem;
+}
+.min .four{
+	width: 10.24rem;
+	height: 7rem;
+	margin: 0 auto;
+	display: flex;
+	padding: 0 0.93rem;
+	box-sizing: border-box;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.min .four .left{
+	width: 4.61rem;
+	height: 6.38rem;
+}
+.min .four .left img{
+	width: 4.61rem;
+	height: 6.38rem;
+}
+.min .four .right .top{
+	width: 1.58rem;
+	height: 1.58rem;
+	margin-bottom: 0.42rem;
+}
+.min .four .right .top img{
+	width: 100%;
+	height: 100%;
+}
+.min .four .right .bottom{
+	width: 2.96rem;
+	height: 4.38rem;
+}
+.min .five{
+	width: 10.24rem;
+	height: 8.6rem;
+	margin: 0 auto;
+}
+.min .five .box:nth-child(1){
+	width: 100%;
+	height: 0.72rem;
+	background-image: url('../img/brand/five1.png');
+}
+.min .five .box:nth-child(2),.min .five .box:nth-child(3){
+	margin-top: 0.3rem;
+	margin-left: 1.05rem;
+}
+.min .five .box:nth-child(2) h1{
+	font-size: 0.18rem;
+	color: #000;
+}
+.min .five .box:nth-child(2) p{
+	font-size: 0.14rem;
+	color: #959292;
+}
+.min .five .box:nth-child(3) p{
+	font-size: 0.14rem;
+	color: #4c4b4b;
+}
+.min .five .box:nth-child(4){
+	height: 1.36rem;
+	width: 100%;
+	margin-top: 0.6rem;
+	padding: 0 1.3rem;
+	box-sizing: border-box;
+}
+.min .five .box:nth-child(4) .left{
+	width: 1.32rem;
+	height: 1.32rem;
+	border: 0.02rem solid #fab8e1;
+	border-radius: 50%;
+	background-image: url('../img/brand/mian.png');
+	background-size: cover;
+	float: left;
+}
+.min .five .box:nth-child(4) .right{
+	width: 6.04rem;
+	height: 1.36rem;
+	float: left;
+}
+.min .five .box:nth-child(4) .right p{
+	margin-top: 0.32rem;
+	margin-left: 0.3rem;
+	font-size: 0.14rem;
+	color: #000;
+}
+.min .five .box:nth-child(5){
+	height: 1.36rem;
+	width: 100%;
+	margin-top: 0.6rem;
+	padding: 0 1.3rem;
+	box-sizing: border-box;
+}
+.min .five .box:nth-child(5) .right{
+	width: 1.32rem;
+	height: 1.32rem;
+	border: 0.02rem solid #fab8e1;
+	border-radius: 50%;
+	background-image: url('../img/brand/shushi.png');
+	background-size: cover;
+	float: left;
+}
+.min .five .box:nth-child(5) .left{
+	width: 6.04rem;
+	height: 1.36rem;
+	float: left;
+}
+.min .five .box:nth-child(5) .left p{
+	margin-top: 0.32rem;
+	margin-right: 0.3rem;
+	font-size: 0.14rem;
+	color: #000;
+}
+.min .five .box:nth-child(6){
+	height: 1.36rem;
+	width: 100%;
+	margin-top: 0.6rem;
+	padding: 0 1.3rem;
+	box-sizing: border-box;
+}
+.min .five .box:nth-child(6) .left{
+	width: 1.32rem;
+	height: 1.32rem;
+	border: 0.02rem solid #fab8e1;
+	border-radius: 50%;
+	background-image: url('../img/brand/gongyi.png');
+	background-size: cover;
+	float: left;
+}
+.min .five .box:nth-child(6) .right{
+	width: 6.04rem;
+	height: 1.36rem;
+	float: left;
+}
+.min .five .box:nth-child(6) .right p{
+	margin-top: 0.32rem;
+	margin-left: 0.3rem;
+	font-size: 0.14rem;
+	color: #000;
+}
+/* tap开始售后 */
+.tu{
+	margin: 0.96rem auto;
+}
+
+.tu img{
+	display: block;
+	margin: 0 auto;
+}
+.tap{
+	width: 100%;
+	height: 3.8rem;
+	background: #000;
+	margin-top: -0.1rem;
+	position: relative;
+}
+
+.tap .min .top{
+	height: 3rem;
+	width: 12rem;
+	overflow: hidden;
+	display: flex;
+
+}
+.tap .min .top .lie{
+	height: 3rem;
+	width: 8.4rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.tap .min .top .lie ul{
+	width: 1.2rem;
+	height: 3rem;
+	margin: 0;
+}
+.tap .min .top .lie ul .one {
+	font-size: 0.22rem;
+	color: #bbbbbb;
+	margin-top: 0.6rem;
+	margin-bottom: 0.1rem;
+}
+
+.tap .min .top .lie ul a li{
+	font-size: 0.14rem;
+	color: #929292;
+	margin-top: 0.2rem;
+}
+.tap .min .top .adress{
+	height: 3.3rem;
+	width: 3.6rem;
+}
+.tap .min .top .adress .way{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.tap .min .top .adress .way h1{
+	font-size: 0.22rem;
+	color: #bbbbbb;
+	margin-top: 0.6rem;
+}
+.tap .min .top .adress .way p{
+	font-size: 0.14rem;
+	color: #bbbbbb;
+}
+.tap .min .top .adress .ma{
+	margin-top: 0.34rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.tap .min .bottom{
+	height: 0.8rem;
+}
+.tap .min .bottom p{
+	font-size: 0.12rem;
+	color: #696969;
+	text-align: center;
+}
+.tap .min .top .lie ul a:hover li{
+	color: #fff;
+}

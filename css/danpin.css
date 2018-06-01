@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: normal;
+    font-family: 苹方;
+    border: none;
+    outline: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    height: 1rem;
+    width: 100%;
+    background: rgba(0,0,0,0.3);
+    opacity: 20%;
+    position: absolute;
+}
+
+header .anniu {
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.2rem;
+    right: 0.2rem;
+}
+header .anniu i{
+    width: 0.4rem;
+    height: 0.4rem;
+    font-size: 0.4rem;
+    color: #000;
+    float: left;
+    transition: all 1s;
+}
+/*header .anniu:hover i{*/
+    /*transform: rotate(90deg);*/
+
+/*}*/
+header .lei{
+    width: 6rem;
+    height: 1rem;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.5rem;
+    right: 0.8rem;
+    display: none;
+}
+header .lei li{
+    width: 1rem;
+    height: 100%;
+    float: left;
+    margin-left: 0.1rem;
+    font-size: 0.26rem;
+    text-align: center;
+    line-height: 1rem;
+    transition: all 1s;
+}
+header .lei li a{
+    color: #ffffff;
+}
+header .lei .brand:hover .class li{
+    display: block;
+}
+header .lei .brand .class li{
+    width: 1rem;
+    height: 0.5rem;
+    font-size: 0.26rem;
+    text-align: center;
+    line-height: 0.5rem;
+    border: 0.01rem solid #fdf4f2;
+    transition: all 1s;
+    display: none;
+}
+header .lei li .class li:hover{
+    background: #55c8ff;
+}
+.min{
+    width: 12rem;
+    height: auto;
+    margin: 0 auto;
+}
+.picture{
+    width: 100%;
+    height: 6rem;
+    background-image: url("../img/beijing.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.min .dao{
+    width: 100%;
+    height: 0.5rem;
+    background: #D71F1F;
+    font-size: 0.22rem;
+    line-height: 0.5rem;
+
+}
+.min .dao i{
+    color: #fff;
+}
+.min .dao a{
+    color: #fff;
+    margin-left: 0.1rem;
+}
+.two{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0.02rem 0 0.4rem 0.01rem rgba(0, 0, 0, 0.1);
+}
+.two .datu{
+    width: 6rem;
+    height: 8rem;
+    margin-top: -4rem;
+    margin-left: -3rem;
+    position: fixed;
+    box-shadow: 0 0 0 30rem rgba(0,0,0,0.5);
+    left: 50%;
+    top: 50%;
+    transition: all 3s;
+}
+.two .datu.hh{
+    display: none;
+}
+.two .datu .btL,.btR{
+    width: 0.5rem;
+    height: 0.5rem;
+    background: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    line-height: 0.5rem;
+    color: #FFF;
+    font-size: 0.26rem;
+}
+.btR{
+    right: 0;
+}
+.two .datu img{
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+.two .box{
+    width: 3rem;
+    height: 4rem;
+    background: #fff;
+    overflow: hidden;
+}
+.two .img{
+    width: 3rem;
+    height: 4rem;
+    background: #fff;
+    overflow: hidden;
+}
+.two .img img{
+    width: 100%;
+    height: 100%;
+}
+.two .box .top{
+    width: 3rem;
+    height: 1.5rem;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 1rem;
+}
+.two .box .bottom{
+    width: 3rem;
+    height: 1.5rem;
+    background: none;
+    display: block;
+}
+.two .box:hover p{
+    color: #40C1EA;
+    transform: scale(1.2, 1.2);
+    transition: all,1s;
+}
+.two .box:hover h1{
+    color: #40C1EA;
+}
+.two .box i{
+    font-size: 0.4rem;
+    line-height: 1.5rem;
+}
+.two .img:hover img{
+    transform: scale(1.1, 1.1);
+    transition: all 1s;
+}
+
+.two .box p{
+    /* height: 1rem; */
+    text-align: center;
+    font-size: 0.22rem;
+    color: #000;
+    background: none;
+    line-height: 0.5rem;
+    text-overflow: ellipsis;
+    display:-webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical;
+    overflow : hidden;
+}
+.two .box  .bottom h1{
+    font-size: 0.16rem;
+    color: #464646;
+    text-align: center;
+}
+
+/* 图了表结束 */
+.three{
+    width: 100%;
+    height: 4rem;
+    background: #000;
+    margin-top: -1.5rem;
+    background-image: url('../img/dichen.png');
+    background-size: cover;
+}
+.four{
+    width: 100%;
+    height: 0.7rem;
+    background: #9a0000;
+    font-size: 0.24rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.four p{
+    width: 100%;
+    height: 0.7rem;
+    font-size: 0.3rem;
+    line-height: 0.7rem;
+    text-align: center;
+}
+
+

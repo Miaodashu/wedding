@@ -1,0 +1,593 @@
+/*
+* @Author: Administrator
+* @Date:   2018-05-04 22:19:59
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-05-07 22:36:22
+*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: normal;
+    font-family: 苹方;
+    text-decoration: none;
+    color: black;
+}
+
+header{
+	width: 100%;
+	height: 8.3rem;
+	background: #000;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+}
+header .in{
+	width: 12rem;
+	height: 7.2rem;
+	margin: 0 auto;
+	display: flex;
+}
+header .in .left{
+	width: 10rem;
+	height: 6.08rem;
+	margin-top: 0.7rem;
+	position: relative;
+	overflow: hidden;
+}
+header .in .left .lunbo{
+	width: 10rem;
+	height: 6.08rem;
+	position: absolute;
+	top: 0;
+	right: 0;
+	transition: all 1s;
+}
+
+header .in img{
+	width: 10rem;
+	height: 6.08rem;
+}
+header .in .right{
+	width: 2rem;
+	height: 6.08rem;
+	margin-top: 0.7rem;
+	/* margin-left: 0.34rem; */
+}
+ header .in .right .box{
+	width: 2rem;
+	height: 100%;
+}
+header .in .right .box a{
+	width: 2rem;
+	height: 0.9rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+header .in .right .logo{
+	width: 2rem;
+	height: 1.35rem;
+	background-image: url('../img/logo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+header .in .right .box .ok{
+	background: #D71F1F;
+}
+header .in .right .box a:hover{
+	background: #D71F1F;
+}
+header a h1{
+	font-size: 0.20rem;
+	color: #fff;
+}
+header a p{
+	font-size: 0.14rem;
+	color: #fff;
+}
+/* 导航列表 */
+ .nav{
+	width: 12rem;
+	height: 1rem;
+	margin: -0.8rem auto 0 auto;
+	background: #fff;
+	display: flex;
+	padding-left: 0.88rem;
+	box-sizing: border-box;
+	align-items: center;
+	position: relative;
+} 
+.nav a{
+	display: block;
+	height: 0.5rem;
+	font-size: 0.22rem;
+	font-weight: bold;
+	color: #000;
+	border-bottom: 0.02rem solid #000;
+	text-align: center;
+	line-height: 0.5rem;
+}
+
+.nav i{
+	width: 0.5rem;
+	height: 0.5rem;
+	text-align: center;
+	line-height: 0.5rem;
+	font-size: 0.18rem;
+	color: #fff;
+	border-radius: 50%;
+	background: #000;
+	float: left;
+	margin: 0 0.2rem;
+}
+/* 导航列表结束 */
+
+
+.min{
+	width: 12rem;
+	height: auto;
+	margin: 0 auto;
+	box-shadow: 0rem 0.2rem 0.3rem 0.1rem rgba(0, 0, 0,0.1);
+	
+}
+.min .show{
+	position: relative;
+	width: 10.24rem;
+	height: 12.64rem;
+	margin: 0 auto;
+}
+.min .show .syi{
+	width: 10.24rem;
+	height: 12.64rem;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.min .product{
+	width: 12rem;
+	height: 3.78rem;
+	background-image: url('../img/product/chanpin.png');
+	background-size: cover;
+}
+.min .yi{
+	width:10.24rem;
+	height: 3.62rem;
+	margin: 0 auto;
+	display: flex;
+	align-items: flex-end;
+}
+.min .yi .left{
+	width: 5.12rem;
+	height: 3.6rem;
+	background: red;
+	overflow: hidden;
+}
+
+.min .syi img:hover{
+	transform: scale(1.2, 1.2);
+	transition: all 1s;
+}
+.min .yi .right{
+	width: 5.12rem;
+	height: 2.7rem;
+	background: #eaece7;
+	padding-left: 0.38rem;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.min .yi .right h1{
+	font-size: 0.48rem;
+	color: #a71223;
+}
+.min .yi .right p{
+	font-size: 0.24rem;
+	color: #6f0c17;
+}
+.min .yi .right .dob{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.min .yi .right .dob p{
+	font-size: 0.14rem;
+	color: #6c6c6a;
+}
+.min .yi .right .dob .ch{
+	font-size: 0.18rem;
+	color: #000;
+}
+.min .two{
+	width:10.24rem;
+	height: 2.7rem;
+	background: yellow;
+	margin: 0 auto;
+	position: relative
+	
+}
+.min .two .left{
+	width: 7rem;
+	height: 2.7rem;
+	position: absolute;
+	right: 5.12rem;
+	top: 0;
+	background-image: url('../img/product/chan22.png');
+	display: flex;
+	padding-right: 0.38rem;
+	box-sizing: border-box;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+}
+.min .two .right{
+	width: 5.12rem;
+	height: 2.7rem;
+	background: black;
+	float: right;
+	overflow: hidden;
+}
+.min .two .left h1{
+	font-size: 0.48rem;
+	color: #fff;
+}
+.min .two .left p{
+	font-size: 0.24rem;
+	color: #fff;
+}
+.min .two .left .dob{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+}
+.min .two .left .dob p{
+	font-size: 0.14rem;
+	color: #b4b3b3;
+}
+.min .two .left .dob .ch{
+	font-size: 0.18rem;
+	color: #fff;
+}
+.min .three{
+	width:10.24rem;
+	height: 2.7rem;
+	margin: 0 auto;
+	display: flex;
+}
+.min .three .left{
+	width: 5.12rem;
+	height: 2.7rem;
+	overflow: hidden;
+}
+.min .three .right{
+	width: 5.12rem;
+	height: 2.7rem;
+	padding-left: 0.38rem;
+	background: #eaece7;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.min .three .right h1{
+	font-size: 0.48rem;
+	color: #a71223;
+}
+.min .three .right p{
+	font-size: 0.24rem;
+	color: #6f0c17;
+}
+.min .three .right .dob{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.min .three .right .dob p{
+	font-size: 0.14rem;
+	color: #6c6c6a;
+}
+.min .three .right .dob .ch{
+	font-size: 0.18rem;
+	color: #000;
+} 
+.min .four{
+	width:10.24rem;
+	height: 3.62rem;
+	margin: 0 auto;
+	display: flex;
+	align-items: flex-start;
+}
+.min .four .left{
+	width: 5.12rem;
+	height: 3.6rem;
+}
+
+.min .four .left .top{
+	width: 5.12rem;
+	height: 2.7rem;
+	background: #eaece7;
+	float: right;
+	display: flex;
+	padding-right: 0.38rem;
+	box-sizing: border-box;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+}
+.min .four .left .top h1{
+	font-size: 0.48rem;
+	color: #a71223;
+}
+.min .four .left .top p{
+	font-size: 0.24rem;
+	color: #6f0c17;
+}
+.min .four .left .top .dob{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+}
+.min .four .left .top .dob p{
+	font-size: 0.14rem;
+	color: #6c6c6a;
+}
+.min .four .left .top .dob .ch{
+	font-size: 0.18rem;
+	color: #000;
+}
+.min .bottom{
+	width: 3.48rem;
+	height: 0.9rem;
+	background: #3d060c;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	z-index: 888;
+	position: absolute;
+	right: 5.12rem;
+	bottom: 0;
+}
+.min .bottom .butt{
+	width: 0.3rem;
+	height: 0.3rem;
+	border: 0.01rem solid #fff;
+	border-radius: 50%;
+	font-size: 0.14rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.3rem;
+}
+.min .bottom .but1{
+	width: 0.3rem;
+	height: 0.3rem;
+	border: 0.01rem solid #fff;
+	border-radius: 50%;
+	font-size: 0.14rem;
+	background: #fff;
+	color: #000;
+	text-align: center;
+	line-height: 0.3rem;
+}
+.min .bottom .jian{
+	display: block;
+	width: 0.3rem;
+	height: 0.3rem;
+}
+.min .bottom i{
+	color: #fff;
+	font-size: 0.14rem;
+	line-height: 0.3rem;
+	float: left;
+}
+.min .four .right{
+	width: 5.12rem;
+	height: 3.62rem;
+	overflow: hidden;
+}
+.min .four .right img{
+	width: 100%;
+	height: 100%;
+}
+.min .four .right:hover img{
+	transform: scale(1.2, 1.2);
+	transition: all 1s;
+}
+/* 产品展示 */
+.hot{
+	width: 10.24rem;
+	height: 2.44rem;
+	margin: 0 auto 0 auto;
+	background-image: url('../img/product/remen.png');
+}
+/* 产品展示列表开始 */
+.show-product{
+	width: 12rem;
+	height: 11.40rem;
+	margin: 0 auto;
+	position: relative;
+}
+.show-product .show-p{
+	width: 12rem;
+	height: 11.40rem;
+	position: absolute;
+	top: 0;
+	left:0;
+}
+.show-product .show-p:nth-child(1){
+	z-index: 88;
+}
+.look{
+	width: 12rem;
+	height: 11.40rem;
+	display: flex;
+	flex-wrap: wrap;
+	background: #fff;
+}
+.look .box{
+	display: block;
+	width: 4rem;
+	height: 5.7rem;
+	padding: 0.2rem;
+	/* border: 0.02rem solid #7f2d00; */
+	box-sizing: border-box;
+
+}
+
+.look .box:hover{
+
+	border: 0.02rem solid #7f2d00;
+	box-sizing: border-box;
+}
+.look .box .picture{
+	width: 3.6rem;
+	height: 4.12rem;
+}
+.look .box .picture img{
+	width: 3.6rem;
+	height: 4.12rem;
+}
+.look .box .text{
+	width: 3.5rem;
+	height: 1.32rem;
+}
+.look .box .text .shang{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 0.28rem;
+}
+.look .box .text .xia{
+	margin-top: 0.14rem;
+}
+.look .box .text h1{
+	font-size: 0.18rem;
+	color: #000;
+}
+
+.look .box .text p{
+	font-size: 0.14rem;
+	color: #9d9999;
+}
+/* 产品展示列表结束 */
+/* 下一页面按钮 */
+.next{
+	width: 12rem;
+	height: 0.3rem;
+	margin-top: 0.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+.next .but{
+	width: 0.3rem;
+	height: 0.3rem;
+	border-radius: 50%;
+	border: 0.01rem solid #000;
+	color: #000;
+	margin:0 0.1rem;
+	font-size: 0.14rem;
+	text-align: center;
+	line-height: 0.3rem;
+}
+.next .but1{
+	background: #000;
+	color: #fff;
+}
+.next .jian{
+	width: 0.3rem;
+	height: 0.3rem;
+}
+.next .jian i{
+	color: #000;
+	font-size: 0.20rem;
+	line-height: 0.3rem;
+	float: left;
+}
+/* 下一页面按钮结束 */
+
+.tu{
+	margin: 0.96rem 0;
+}
+
+/* tap开始售后 */
+.tap{
+	width: 100%;
+	height: 3.8rem;
+	background: #000;
+	margin-top: -0.1rem;
+	position: relative;
+}
+
+.tap .min .top{
+	height: 3rem;
+	width: 12rem;
+	overflow: hidden;
+	display: flex;
+
+}
+.tap .min .top .lie{
+	height: 3rem;
+	width: 8.4rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.tap .min .top .lie ul{
+	width: 1.2rem;
+	height: 3rem;
+	margin: 0;
+}
+.tap .min .top .lie ul .one {
+	font-size: 0.22rem;
+	color: #bbbbbb;
+	margin-top: 0.6rem;
+	margin-bottom: 0.1rem;
+}
+
+.tap .min .top .lie ul a li{
+	font-size: 0.14rem;
+	color: #929292;
+	margin-top: 0.2rem;
+}
+.tap .min .top .adress{
+	height: 3.3rem;
+	width: 3.6rem;
+}
+.tap .min .top .adress .way{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.tap .min .top .adress .way h1{
+	font-size: 0.22rem;
+	color: #bbbbbb;
+	margin-top: 0.6rem;
+}
+.tap .min .top .adress .way p{
+	font-size: 0.14rem;
+	color: #bbbbbb;
+}
+.tap .min .top .adress .ma{
+	margin-top: 0.34rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.tap .min .bm{
+	height: 0.8rem;
+}
+.tap .min .bm p{
+	font-size: 0.12rem;
+	color: #696969;
+	text-align: center;
+}
+.tap .min .top .lie ul a:hover li{
+	color: #fff;
+}

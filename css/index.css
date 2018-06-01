@@ -1,0 +1,719 @@
+/*
+* @Author: Administrator
+* @Date:   2018-05-03 13:34:01
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-05-26 14:33:44
+*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: normal;
+    font-family: 苹方;
+	border: none;
+	outline: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+	width: 100%;
+	height: 7.2rem;
+	background: #000;
+
+}
+header .min{
+	width: 12rem;
+	height: 7.2rem;
+	margin: 0 auto;
+	display: flex;
+	overflow: hidden;
+	justify-content: space-between;
+}
+header .min .left{
+	width: 10rem;
+	height: 6.08rem;
+	margin-top: 0.7rem;
+	position: relative;
+	overflow: hidden;
+}
+header .min .left .lunbo{
+	width: 10rem;
+	height: 6.08rem;
+	position: absolute;
+	left:10rem;
+	top:0;
+}
+header .min .left .lb1{
+	width: 10rem;
+	height: 6.08rem;
+	position: absolute;
+	left:0;
+	top:0;
+}
+header .min .left .btn{
+	width:1.6rem;
+	height:0.3rem;
+	position: absolute;
+	left:50%;
+	bottom:0.1rem;
+	margin-left: -0.6rem;
+	display: flex;
+	justify-content: space-around;
+}
+
+header .min .left .btn li{
+	width:0.2rem;
+	height:0.2rem;
+	box-sizing: border-box;
+	border-radius: 50%;
+	border:0.02rem solid #fff;
+}
+
+header .min .left .btn .hot{
+	background: #fff;
+}
+header .min .left .btn li:hover{
+	background: #fff;
+}
+/*header .min .left .lbtn{*/
+	/*background: rgba(0,0,0,0.5);*/
+	/*width:1rem;*/
+	/*height:3rem;*/
+	/*color: #fff;*/
+/*}*/
+header .min .left .rbtn,
+header .min .left .lbtn
+{
+	background: rgba(0,0,0,0.2);
+	width:0.5rem;
+	height:0.5rem;
+	border-radius: 50%;
+	position: absolute;
+	top:0;
+	bottom:0;
+	margin: auto;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #fff;
+	display:none;
+}
+header .min .left .lbtn{
+	right: 0;
+}
+header .min .left i{
+	display: block;
+	text-align: center;
+	line-height: 0.5rem;
+	margin: auto;
+}
+header .min .left:hover .lbtn{
+	display: block;
+}
+header .min .left:hover .rbtn{
+	display: block;
+}
+header .min img{
+	width: 10rem;
+	height: 6.08rem;
+
+}
+header .min .right{
+	width: 2rem;
+	height: 6.08rem;
+	margin-top: 0.7rem;
+}
+ header .min .right .box{
+	width: 2rem;
+	height: 100%;
+}
+header .min .right .box a{
+	/*display: block;*/
+	width: 2rem;
+	height: 0.9rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+header .min .right .logo{
+	width: 2rem;
+	height: 1.35rem;
+	background-image: url('../img/logo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+header .min .right .box .ok{
+	background: #D71F1F;
+}
+header .min .right .box a:hover{
+	background: #D71F1F;
+}
+header a h1{
+	font-size: 0.20rem;
+	color: #fff;
+}
+header a p{
+	font-size: 0.14rem;
+	color: #fff;
+} 
+
+/* <!-- 产品展示开始 --> */
+.min{
+	width: 12rem;
+	margin:0 auto;
+}
+.min .product{
+	width: 12rem;
+	height: auto;
+	/*margin: 1.4rem auto 0 auto;*/
+}
+/* 产品欣赏标题样式设置开始 */
+.min .product .box1{
+	width: 12rem;
+	height:1.52rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.min .product .box1 h1{
+	font-size: 0.26rem;
+	color: #f73c52;
+}
+.min .product .box1 p{
+	font-size: 0.14rem;
+	color: #000;
+}
+.min .product .box1 i{
+	font-size: 0.2rem;
+	color: #cdcdcd;
+}
+.min .product .box1 i.left{
+	margin-right: 0.15rem;
+}
+.min .product .box1 i.right{
+	margin-left: 0.15rem;
+}
+
+/* 产品欣赏标题样式设置结束 */
+
+/* 设置四个盒子的统一样式开始*/
+.min .product .box{
+	width: 12rem;
+	height: 4.24rem;
+	display: flex;
+	align-items: center;
+}
+
+
+/* 设置四个盒子的统一样式结束 */
+
+/* box2是设置嫁衣和礼服的样式 开始 */
+.min .product .box2 .left{
+	width: 3.76rem;
+	height:3.14rem ;
+	padding-left: 0.6rem;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+/*点击侧滑*/
+.min .product .boxx{
+	position: relative;
+}
+.min .product .bt{
+	width:1rem;
+	height: 0.3rem;
+	position: absolute;
+	top:0.2rem;
+	right: 0;
+	display: flex;
+}
+.min .product .bt button{
+	width:0.5rem;
+	height: 0.3rem;
+	background:#F8586B;
+	border:0.01rem solid #fff;
+	box-sizing: border-box;
+}
+.min .product .box2 .right{
+	width: 8.24rem;
+	height:3.14rem ;
+	overflow: hidden;
+}
+.min .product .box2 .right .tu{
+	display: flex;
+	width:41.2rem;
+	height: 3.14rem;
+	transition: all ease 1s;
+}
+.min .product .box2 .right .tu li{
+	width: 8.24rem;
+	height:3.14rem ;
+}
+.min .product .box2 .heng0{
+	width: 0.5rem;
+	height: 0.06rem;
+	background: #000;
+	position: absolute;
+	top: 0.92rem;
+	left: 0;
+}
+.min .product .box2 .left .one h1{
+	font-size: 0.36rem;
+	color: #000;
+}
+.min .product .box2 .left .one p{
+	font-size: 0.18rem;
+	color: #000;
+}
+.min .product .box2 .left .two p{
+	font-size:0.14rem; 
+}
+.min .product .box2 .left .three{
+	width: 1.22rem;
+	height: 0.4rem;
+	text-align: center;
+	line-height: 0.4rem;
+	font-size:0.18rem;
+	border: 0.02rem solid #707070; 
+}
+/* box2是设置嫁衣和礼服的样式 结束 */
+
+/* box3是设置婚纱和伴娘服的样式 开始 */
+.min .product .box3 .left{
+	width: 8.24rem;
+	height:3.14rem ;
+}
+
+.min .product .box3 .right{
+	width: 3.76rem;
+	height:3.14rem;
+	padding-right: 0.6rem;
+	box-sizing: border-box;
+}
+/* box3是设置婚纱和伴娘服的右边字体样式 */
+.min .product .box3 .right .one{
+	margin-top: 0.15rem;
+	float: right;
+}
+
+.min .product .box3 .right .one h1{
+	float: right;
+	font-size: 0.36rem;
+	color: #000;
+}
+.min .product .box3 .right .one p{
+	font-size: 0.18rem;
+	color: #000;
+}
+.min .product .box3 .right .two{
+	float: right;
+	text-align: right;
+	margin-top: 0.15rem;
+}
+.min .product .box3 .right .two p{
+	font-size:0.14rem; 
+}
+.min .product .box3 .right .three{
+	margin-top: 0.3rem;
+	float: right;
+	width: 1.22rem;
+	height: 0.4rem;
+	text-align: center;
+	line-height: 0.4rem;
+	font-size:0.18rem;
+	border: 0.02rem solid #707070; 
+}
+/* box3是设置婚纱和伴娘服的右边字体样式 */
+
+/* boxx是嫁衣的样式，用来横线定位的开始 */
+.min .product .boxx{
+	position: relative;
+}
+
+.min .product .boxx .right{
+	width: 8.24rem;
+	height:3.14rem ;
+}
+
+/* boxx是嫁衣的样式，用来横线定位的结束 */
+
+/* boxx1是礼服的样式，用来横线定位的开始 */
+.min .product .boxx1{
+	position: relative;
+}
+.min .product .boxx1 .right{
+	width: 8.24rem;
+	height:3.14rem ;
+}
+.min .product .boxx1 .heng2{
+	width: 0.5rem;
+	height: 0.06rem;
+	background: #000;
+	position: absolute;
+	top: 0.92rem;
+	left: 0;
+}
+/* boxx1是礼服的样式，用来横线定位的结束 */
+
+/* boxx3是婚纱的样式，用来横线定位的开始 */
+.min .product .boxx3{
+	position: relative;
+}
+.min .product .boxx3 .left{
+	width: 8.24rem;
+	height:3.14rem;
+	overflow: hidden;
+}
+.min .product .boxx3 .heng1{
+	width: 0.5rem;
+	height: 0.06rem;
+	background: #000;
+	position: absolute;
+	top: 0.92rem;
+	right: 0;
+}
+/* boxx3是婚纱的样式，用来横线定位的结束 */
+
+/* boxx4是伴娘服的样式，用来横线定位的开始 */
+.min .product .boxx4{
+	position: relative;
+}
+.min .product .boxx4 .left{
+	width: 8.24rem;
+	height:3.14rem ;
+	overflow: hidden;
+}
+.min .product .boxx4 .heng3{
+	width: 0.5rem;
+	height: 0.06rem;
+	background: #000;
+	position: absolute;
+	top: 0.92rem;
+	right: 0;
+}
+/* boxx4是伴娘服的样式，用来横线定位的结束 */
+
+/* 设置MORE鼠标移入的效果和图片放大 */
+.min .product img{
+	transition: all 1s;
+}
+.min .product .three:hover{
+	background: #F8586B;
+}
+.min .product .boxx1 .right img:hover{
+	transform: scale(1.2, 1.2);
+	transition: all 1s;
+}
+.min .product .box3 .left img:hover{
+	transform: scale(1.2, 1.2);
+	transition: all 1s;
+}
+.min .product .box:hover .heng{
+	background: #F8586B;
+}
+/* 设置MORE鼠标移入的效果和图片放大 */
+ .more:hover{
+	background: #F8586B;
+}
+/* <!-- 产品展示结束 --> */
+/* 品牌故事开始 */
+.min .story{
+	margin-top: 1.16rem;
+	width: 12rem;
+	height: 10.62rem;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+/* 品牌故事字体样式的设置 */
+.min .story .box1{
+	width: 12rem;
+	height: 1.88rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.min .story .box1 h1{
+	font-size: 0.26rem;
+	color: #f73c52;
+}
+.min .story .box1 p{
+	font-size: 0.14rem;
+	color: #000;
+}
+.min .story .box1 i{
+	font-size: 0.2rem;
+	color: #cdcdcd;
+}
+.min .story .box1 i.left{
+	margin-right: 0.15rem;
+}
+.min .story .box1 i.right{
+	margin-left: 0.15rem;
+}
+
+/* 品牌故事字体样式的设置 结束*/
+.min .story .box2{
+	width: 4.6rem;
+	height: 4.7rem;
+	background-image: url('../img/ciameiyue.png');
+	background-size: cover;
+}
+.min .story .box2:hover{
+	transform: translate(0, 0.05rem);
+	box-shadow: 0 0 0.3rem 0.15rem rgba(255, 0, 0, 0.1);
+	transition: all 1s;
+}
+.min .story .box3{
+	width: 4.2rem;
+	height: 5.1rem;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 0.5rem;
+	box-sizing: border-box;
+}
+.min .story .box3 .name{
+	font-size: 0.36rem;
+	font-weight: bold;
+}
+.min .story .box3:hover p{
+	color: #f73c52;
+	font-weight: bold;
+}
+.min .story .box3 .say{
+	font-size: 0.14rem;
+	color: #000;
+}
+.min .story .box3 .ying{
+	font-size: 0.12rem;
+	color: #7b7979;
+}
+.min .story .box3 .jiang{
+	font-size: 0.14rem;
+	color: #000;
+}
+
+.min .story .box4{
+	width: 3.2rem;
+	height: 8.74rem;
+	overflow: hidden;
+}
+.min .story .box4 img{
+	width: 3.2rem;
+	height: 8.74rem;
+}
+.min .story .box4:hover img{
+	transform: scale(1.2, 1.2);
+	transition: all 1s;
+}
+.min .story .box5{
+	width: 8.58rem;
+	height: 1.95rem;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.min .story .box5 .bo{
+	width: 1.95rem;
+	height: 1.95rem;
+	overflow: hidden;
+}
+
+.min .story .box5 .bo img{
+	width: 1.95rem;
+	height: 1.95rem;
+}
+.min .story .box5 img:hover{
+	transform: scale(1.2, 1.2);
+	transition: all 1s;
+}
+/* 品牌故事结束 */
+div.beijing{
+	width: 100%;
+	height: 3.8rem;
+	background: black;
+	margin-top: -2.9rem;
+	background-image: url('../img/dichen.png');
+	background-size:100% 100%; 
+}
+div.more{
+	width: 2.26rem;
+	height: 0.74rem;
+	border: 0.03rem solid #707070;
+	margin: 0.5rem auto;
+	font-size: 0.3rem;
+	color: #4a4848;
+	text-align: center;
+	line-height: 0.74rem;
+}
+/* 官方活动开始 */
+.min .active{
+	width: 12rem;
+	height: 14.6rem;
+}
+.min .active .top{
+	width: 12rem;
+	height: 1.2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.min .active .top h1{
+	font-size: 0.26rem;
+	color: #f73c52;
+}
+.min .active .top p{
+	font-size: 0.14rem;
+	color: #000;
+}
+
+.min .active .top i{
+	font-size: 0.2rem;
+	color: #cdcdcd;
+}
+.min .active .top i.left{
+	margin-right: 0.15rem;
+}
+.min .active .top i.right{
+	margin-left: 0.15rem;
+} 
+.min .active .bottom{
+	width: 12rem;
+	height: 13.40rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.min .active .bottom .box{
+	width: 3.57rem;
+	height: 6.7rem;
+	margin-right: 0.64rem;
+}
+.min .active .bottom .box:nth-child(3),
+.min .active .bottom .box:nth-child(6){
+	margin-right: 0;
+}
+.min .active .bottom .box .picture{
+	width: 3.57rem;
+	height: 4.76rem;
+	overflow: hidden;
+}
+.min .active .bottom .box .text{
+	width: 3.57rem;
+	height: 1.94rem;
+	background: #fff;
+
+}
+.min .active .bottom .box .text .shang{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 0.28rem;
+}
+.min .active .bottom .box .text .xia{
+	margin-top: 0.14rem;
+}
+.min .active .bottom .box .text h1{
+	font-size: 0.18rem;
+	color: #000;
+}
+
+.min .active .bottom .box .text p{
+	font-size: 0.14rem;
+	color: #9d9999;
+}
+.min .active .bottom .box img:hover{
+	transform: scale(1.2, 1.2);
+	transition: all 1s;
+}
+.min .active .bottom .box .text:hover .xia{
+	color: #f73c52;
+}
+/* 官方活动结束 */
+
+
+.tap{
+	width: 100%;
+	height: 3.8rem;
+	background: #000;
+	position: relative;
+}
+
+.tap .min .top{
+	height: 3rem;
+	width: 12rem;
+	overflow: hidden;
+	display: flex;
+
+}
+.tap .min .top .lie{
+	height: 3rem;
+	width: 8.4rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.tap .min .top .lie ul{
+	width: 1.2rem;
+	height: 3rem;
+	margin: 0;
+}
+.tap .min .top .lie ul .one {
+	font-size: 0.22rem;
+	color: #bbbbbb;
+	margin-top: 0.6rem;
+	margin-bottom: 0.1rem;
+}
+
+.tap .min .top .lie ul a li{
+	font-size: 0.14rem;
+	color: #929292;
+	margin-top: 0.2rem;
+}
+.tap .min .top .adress{
+	height: 3.3rem;
+	width: 3.6rem;
+}
+.tap .min .top .adress .way{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.tap .min .top .adress .way h1{
+	font-size: 0.22rem;
+	color: #bbbbbb;
+	margin-top: 0.6rem;
+}
+.tap .min .top .adress .way p{
+	font-size: 0.14rem;
+	color: #bbbbbb;
+}
+.tap .min .top .adress .ma{
+	margin-top: 0.34rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.tap .min .bottom{
+	height: 0.8rem;
+}
+.tap .min .bottom p{
+	font-size: 0.12rem;
+	color: #696969;
+	text-align: center;
+}
+.tap .min .top .lie ul a:hover li{
+	color: #fff;
+}

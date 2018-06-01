@@ -1,0 +1,526 @@
+/*
+* @Author: Administrator
+* @Date:   2018-05-07 22:22:28
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-05-08 00:26:30
+*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: normal;
+    font-family: 苹方;
+    text-decoration: none;
+    color: black;
+}
+
+header{
+	width: 100%;
+	height: 8.3rem;
+	background: #000;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+}
+header .in{
+	width: 12rem;
+	height: 7.2rem;
+	margin: 0 auto;
+	display: flex;
+}
+header .in .left{
+	width: 10rem;
+	height: 6.08rem;
+	margin-top: 0.7rem;
+	position: relative;
+	overflow: hidden;
+}
+header .in .left .lunbo{
+	width: 10rem;
+	height: 6.08rem;
+	position: absolute;
+	top: 0;
+	right: 0;
+	transition: all 0.5s;
+}
+
+header .in img{
+	width: 10rem;
+	height: 6.08rem;
+}
+header .in .right{
+	width: 2rem;
+	height: 6.08rem;
+	margin-top: 0.7rem;
+	/* margin-left: 0.34rem; */
+}
+ header .in .right .box{
+	width: 2rem;
+	height: 100%;
+}
+header .in .right .box a{
+
+	width: 2rem;
+	height: 0.9rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+header .in .right .logo{
+	width: 2rem;
+	height: 1.35rem;
+	background-image: url('../img/logo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+header .in .right .box .ok{
+	background: #D71F1F;
+}
+header .in .right .box a:hover{
+	background: #D71F1F;
+}
+header a h1{
+	font-size: 0.20rem;
+	color: #fff;
+}
+header a p{
+	font-size: 0.14rem;
+	color: #fff;
+}
+/* 导航列表 */
+ .nav{
+	width: 12rem;
+	height: 1rem;
+	margin: -0.8rem auto 0 auto;
+	background: #fff;
+	display: flex;
+	padding-left: 0.88rem;
+	box-sizing: border-box;
+	align-items: center;
+	position: relative;
+} 
+.nav a{
+	display: block;
+	height: 0.5rem;
+	font-size: 0.22rem;
+	font-weight: bold;
+	color: #000;
+	border-bottom: 0.02rem solid #000;
+	text-align: center;
+	line-height: 0.5rem;
+}
+
+.nav i{
+	width: 0.5rem;
+	height: 0.5rem;
+	text-align: center;
+	line-height: 0.5rem;
+	font-size: 0.18rem;
+	color: #fff;
+	border-radius: 50%;
+	background: #000;
+	float: left;
+	margin: 0 0.2rem;
+}
+/* 导航列表结束 */
+.min{
+	width: 12rem;
+	height: auto;
+	margin: 0 auto;
+	box-shadow: 0rem 0.2rem 0.3rem 0.1rem rgba(0, 0, 0,0.1);
+	
+}
+.min .one{
+	height: 3.02rem;
+	width: 12rem;
+	background-image: url('../img/active/biaoti.png');
+}
+.min .mi{
+	width: 10.24rem;
+	height: auto;
+	margin: 0 auto;
+}
+.min .mi .text{
+	width: 10.24rem;
+	height: 14rem;
+	margin: 0 auto;
+	position: relative;
+}
+.min .mi .text .txt{
+	width: 10.24rem;
+	height: auto;
+	background: #fff;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.min .mi .text .two{
+	height: 3rem;
+	width: 100%;
+	transition: all 1s;
+}
+.min .mi .text .two:hover p{
+	color: #B63030;
+	font-weight: bold;
+	/*transform: scale(1.1);*/
+}
+.min .two p:nth-child(1){
+	font-size: 0.36rem;
+	text-align: center;
+	color: #000;
+	margin-top: 0.86rem;
+}
+.min .two p:nth-child(2){
+	font-size: 0.24rem;
+	text-align: center;
+	color: #743232;
+}
+.min .two p:nth-child(3){
+	font-size: 0.3rem;
+	text-align: center;
+	color: #777676;
+}
+.min .two p:nth-child(4){
+	font-size: 0.24rem;
+	text-align: center;
+	color: #504e4e;
+	margin-top: 0.3rem;
+}
+
+.min .mi .text .three{
+	width: 10.24rem;
+	height:3rem;
+	overflow: hidden;
+}
+.min .mi .three .shang{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 0.1rem;
+	font-size: 0.24rem;
+}
+.min .mi .three .shang .box1{
+	background: black;
+	width: 0.13rem;
+	height: 0.13rem;
+	margin-left: 0.6rem;
+	
+}
+.min .mi .three .shang .box2{
+	font-size: 0.24rem;
+	color: #000;
+}
+.min .mi .three .shang .box3{
+	font-size: 0.24rem;
+	color:#9e9999;
+}
+.min .mi .three .xia .biao{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.24rem;
+	margin-top: 0.5rem;
+}
+.min .mi .three .xia .box1{
+	background: black;
+	width: 0.13rem;
+	height: 0.13rem;
+	margin-left: 0.6rem;
+	
+}
+.min .mi .three .xia .box2{
+	font-size: 0.24rem;
+	color: #000;
+}
+.min .mi .three .xia .box3{
+	font-size: 0.24rem;
+	color:#9e9999;
+}
+.min .mi .three .xia p{
+	font-size: 0.14rem;
+	text-align: center;
+	color: #9e9999;
+	margin-top: 0.2rem;
+}
+.min .mi .picture{
+	width: 100%;
+	height: 3.06rem;
+	background-image: url('../img/active/picture.png');
+	background-size: 100% 100%;
+}
+.min .mi .xia .biao{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.24rem;
+	margin-top: 0.5rem;
+}
+.min .mi .xia .box1{
+	background: black;
+	width: 0.13rem;
+	height: 0.13rem;
+	margin-left: 0.6rem;
+	
+}
+.min .mi .xia .box2{
+	font-size: 0.24rem;
+	color: #000;
+}
+.min .mi .xia .box3{
+	font-size: 0.24rem;
+	color:#9e9999;
+}
+.min .mi .xia p{
+	font-size: 0.14rem;
+	text-align: center;
+	color: #9e9999;
+	margin-top: 0.2rem;
+}
+.min .mi .four p{
+	font-size: 0.14rem;
+	text-align: center;
+	color: #9e9999;
+	margin-top: 0.2rem;
+}
+.min .mi .but{
+	width:100% ;
+	height: 0.72rem;
+	justify-content: space-around;
+	margin-top: 0.5rem;
+	display: flex;
+	align-items: center;
+	background: #773507;
+}
+.min .mi .but .left{
+	color: #fff;
+	font-size: 0.3rem;
+}
+.min .mi .but .right{
+	color: #fff;
+	font-size: 0.3rem;
+}
+.min .mi .but i{
+	color: #fff;
+	font-size: 0.3rem;
+}
+.min .mi .but .left:hover{
+	color: #B63030;
+}
+.min .mi .but .right:hover{
+	color: #B63030;
+}
+.min .saytu{
+	width: 100%;
+	height: 1.26rem;
+	background-image: url('../img/active/ping.png');
+
+}
+.min .say{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+}
+.min .say .box{
+	width: 9.82rem;
+	height: 1.18rem;
+	background: #f5f1f1;
+	margin-top: 0.2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+}
+.min .say .box .box1{
+	margin-top: 0.3rem;
+}
+.min .say .box .top{
+	display: flex;
+	align-items: center;
+
+}
+.min .say .box .top h1{
+	font-size: 0.24rem;
+	color: #773a3a;
+	margin-right: 0.2rem;
+}
+.min .say .box .top p{
+	font-size: 0.2rem;
+	color: #6d6a6a;
+	margin-right: 0.2rem;
+}
+.min .say .box i {
+	font-size: 0.24rem;
+	color: #c8c5c5;
+	margin-left: 0.8rem;
+	margin-right: 0.2rem;
+}
+.min .say .box .bottom p{
+	font-size: 0.14rem;
+	color: #c8c5c5;
+	margin-left: 0.8rem;
+}
+.min .say .box .tou{
+	width: 0.94rem;
+	height: 0.94rem;
+	background-image: url('../img/active/toux.png');
+	background-size: 100% 100%;
+	position: absolute;
+	left:-0.4rem;
+	top: -0.2rem; 
+}
+.min .say .butt{
+	width: 3.04rem;
+	height: 0.3rem;
+	display: flex;
+	margin: 0.48rem auto 0.48rem auto;
+	justify-content: center;
+}
+.min .say .butt .on{
+	width: 0.3rem;
+	height: 0.3rem;
+	background: #000;
+	border-radius: 50%;
+	text-align: center;
+	color: #fff;
+	font-size: 0.14rem;
+	line-height: 0.3rem;
+	margin-left: 0.2rem;
+}
+.min .say .butt .onn{
+	background: #a9a9a9;
+}
+.min .liu{
+	width: 100%;
+	height: 0.97rem;
+	background-image: url('../img/active/liuyan.png');
+	background-size: 100% 100%;
+	margin-top: 0.2rem;
+}
+.min .message{
+	width: 100%;
+	height: auto;
+
+}
+.min input{
+	width: 100%;
+	height: 0.5rem;
+	background: #fff;
+	list-style: none;
+	padding: 0.1rem;
+	box-sizing: border-box;
+	border: 0.01rem solid #55c8ff;
+}
+
+.min textarea{
+	width: 100%;
+	height: 3rem;
+	margin-top: 0.1rem;
+	background: #fff;
+	list-style: none;
+	padding: 0.1rem;
+	box-sizing: border-box;
+	border-collapse:collapse;
+	outline: none;
+	border: 0.01rem solid #55c8ff;
+}
+.info{
+	text-align: center;
+	line-height: 0.3rem;
+	font-size: 0.22rem;
+	color: #000;
+}
+.info span{
+	color: red;
+}
+.btn{
+	width: 1rem;
+	height: 0.3rem;
+	outline: none;
+	border: none;
+	display: block;
+	margin:  0.2rem auto;
+}
+/* tap栏 */
+.tu{
+	margin: 0.96rem 0;
+}
+
+/* tap开始售后 */
+.tap{
+	width: 100%;
+	height: 3.8rem;
+	background: #000;
+	margin-top: -0.1rem;
+	position: relative;
+}
+
+.tap .min .top{
+	height: 3rem;
+	width: 12rem;
+	overflow: hidden;
+	display: flex;
+
+}
+.tap .min .top .lie{
+	height: 3rem;
+	width: 8.4rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.tap .min .top .lie ul{
+	width: 1.2rem;
+	height: 3rem;
+	margin: 0;
+}
+.tap .min .top .lie ul .oe {
+	font-size: 0.22rem;
+	color: #bbbbbb;
+	margin-top: 0.6rem;
+	margin-bottom: 0.1rem;
+}
+
+.tap .min .top .lie ul a li{
+	font-size: 0.14rem;
+	color: #929292;
+	margin-top: 0.2rem;
+}
+.tap .min .top .adress{
+	height: 3.3rem;
+	width: 3.6rem;
+}
+.tap .min .top .adress .way{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.tap .min .top .adress .way h1{
+	font-size: 0.22rem;
+	color: #bbbbbb;
+	margin-top: 0.6rem;
+}
+.tap .min .top .adress .way p{
+	font-size: 0.14rem;
+	color: #bbbbbb;
+}
+.tap .min .top .adress .ma{
+	margin-top: 0.34rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.tap .min .bottom{
+	height: 0.8rem;
+}
+.tap .min .bottom p{
+	font-size: 0.12rem;
+	color: #696969;
+	text-align: center;
+}
+.tap .min .top .lie ul a:hover li{
+	color: #fff;
+}
